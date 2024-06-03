@@ -1,0 +1,11 @@
+dnc_project:
+  target: dev
+  outputs:
+    dev:
+      dbname: dnc_zebrinha_azul
+      host: postgres
+      password: password
+      port: 5432
+      schema: dbt_trs
+      type: postgres
+      user: postgres
